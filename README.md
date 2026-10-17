@@ -62,25 +62,3 @@ As capturas abaixo são da versão web do próprio aplicativo. Confira também o
 ### Desafio aninhado
 ![Drawer sobre as abas](docs/aninhado.png)
 
-## Validação
-
-Dependências conferidas com `npx expo install --check`. Bundles web e Android compilados e interações verificadas no navegador: Home → Produtos, alternância das abas, abertura do Drawer e navegação pelos itens nos modos simples e aninhado. O teste web não substitui o teste do gesto de borda e do botão voltar do Android no aparelho.
-
-## Publicar no GitHub
-
-Crie um repositório público e envie o conteúdo desta pasta. Não envie `node_modules`, `.expo` ou `dist` (já estão no `.gitignore`).
-
-```sh
-git init
-git add .
-git commit -m "Implementa Stack, Bottom Tabs, Drawer e navegacao aninhada"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/my-app.git
-git push -u origin main
-```
-
-## Referências
-
-- https://reactnavigation.org/docs/getting-started/
-- https://reactnavigation.org/docs/drawer-navigator/
-- https://docs.expo.dev/versions/v54.0.0/sdk/reanimated/
